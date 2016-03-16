@@ -1,0 +1,26 @@
+{
+  "name": "slackbot-pr-reminder",
+  "version": "1.0.0",
+  "description": "Slackbot to remind you of waiting PR's in github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjshoe/slackbot-pr-reminder.git"
+  },
+  "author": "Joel",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jjshoe/slackbot-pr-reminder/issues"
+  },
+  "homepage": "https://github.com/jjshoe/slackbot-pr-reminder#readme",
+  "dependencies": {
+    "config": "^1.19.0",
+    "js-yaml": "^3.5.4",
+    "later": "^1.2.0",
+    "octonode": "^0.7.4",
+    "slackbots": "^0.5.1"
+  }
+}

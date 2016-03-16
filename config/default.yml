@@ -1,0 +1,21 @@
+bot_name: rubblebucket
+slack_api_token:
+
+default_channel: general
+default_times:
+  - "23:54"
+  - "23:55"
+  - "23:56"
+  - "23:57"
+  - "23:58"
+  - "23:59"
+
+reminders:
+  - repo: some_repo
+    channel: some_channel
+    times: 
+      - "07:00"
+      - "15:00"
+  - repo: another_repo
+    channel: some_channel
+  - repo: lonely_repo
