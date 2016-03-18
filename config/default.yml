@@ -1,21 +1,17 @@
-bot_name: rubblebucket
+bot_name: 
 slack_api_token:
+github_api_token:
 
 default_channel: general
 default_times:
-  - "23:54"
-  - "23:55"
-  - "23:56"
-  - "23:57"
-  - "23:58"
-  - "23:59"
+  - hour: 24
+    minute: 54
 
 reminders:
-  - repo: some_repo
-    channel: some_channel
-    times: 
-      - "07:00"
-      - "15:00"
-  - repo: another_repo
-    channel: some_channel
-  - repo: lonely_repo
+  - repo: jjshoe/slackbot-pr-reminder
+    channel: general
+    times:
+      - hour: 16
+        minute:  56
+      - hour: 16
+        minute:  58
