@@ -20,6 +20,7 @@
     "config": "^1.19.0",
     "js-yaml": "^3.5.4",
     "later": "^1.2.0",
+    "moment": "^2.12.0",
     "octonode": "^0.7.4",
     "slackbots": "^0.5.1"
   }

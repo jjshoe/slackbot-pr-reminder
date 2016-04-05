@@ -1,4 +1,4 @@
-bot_name: 
+bot_name:
 slack_api_token:
 github_api_token:
 
@@ -10,8 +10,8 @@ default_times:
 reminders:
   - repo: jjshoe/slackbot-pr-reminder
     channel: general
-    times:
+    times: 
       - hour: 16
-        minute:  56
+        minute:  56 
       - hour: 16
         minute:  58
